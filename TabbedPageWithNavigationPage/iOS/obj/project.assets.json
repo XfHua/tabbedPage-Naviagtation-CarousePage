@@ -740,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\iOS\\TabbedPageWithNavigationPage.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\iOS\\TabbedPageWithNavigationPage.iOS.csproj",
       "projectName": "TabbedPageWithNavigationPage.iOS",
-      "projectPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\iOS\\TabbedPageWithNavigationPage.iOS.csproj",
+      "projectPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\iOS\\TabbedPageWithNavigationPage.iOS.csproj",
       "packagesPath": "C:\\Users\\jasonh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\iOS\\obj\\",
+      "outputPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -765,8 +765,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj": {
-              "projectPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj"
+            "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj": {
+              "projectPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj"
             }
           }
         }

@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\Droid\\TabbedPageWithNavigationPage.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\Droid\\TabbedPageWithNavigationPage.Droid.csproj",
       "projectName": "TabbedPageWithNavigationPage.Droid",
-      "projectPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\Droid\\TabbedPageWithNavigationPage.Droid.csproj",
+      "projectPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\Droid\\TabbedPageWithNavigationPage.Droid.csproj",
       "packagesPath": "C:\\Users\\jasonh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\Droid\\obj\\",
+      "outputPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -846,8 +846,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj": {
-              "projectPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj"
+            "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj": {
+              "projectPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj"
             }
           }
         }

@@ -371,11 +371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj",
+      "projectUniqueName": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj",
       "projectName": "TabbedPageWithNavigationPage",
-      "projectPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj",
+      "projectPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage.csproj",
       "packagesPath": "C:\\Users\\jasonh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jasonh\\Desktop\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\obj\\",
+      "outputPath": "C:\\Users\\jasonh\\Documents\\GitHub\\tabbedPage-Naviagtation-CarousePage\\TabbedPageWithNavigationPage\\TabbedPageWithNavigationPage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
