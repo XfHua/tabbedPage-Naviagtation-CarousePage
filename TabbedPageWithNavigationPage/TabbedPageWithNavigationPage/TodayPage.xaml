@@ -1,43 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
-			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-			 x:Class="TabbedPageWithNavigationPage.TodayPage"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TabbedPageWithNavigationPage"
+             x:Class="TabbedPageWithNavigationPage.TodayPage"
 			 Icon="today.png"
 			 Title="Today">
-    <ContentPage>
-        <ContentPage.Padding>
-            <OnPlatform x:TypeArguments="Thickness">
-                <On Platform="iOS, Android" Value="0,40,0,0" />
-            </OnPlatform>
-        </ContentPage.Padding>
+  
         <StackLayout>
-            <Label Text="Red" FontSize="Medium" HorizontalOptions="Center" />
-
-            <Button Text="Red" FontSize="Medium" Clicked="Button_Clicked" HorizontalOptions="Center" />
-
-            <BoxView Color="Red" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <ListView x:Name="listView" x:FieldModifier="public">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:MasterPageItem}">
+                        <local:MasterPageItem Title="Contacts" IconSource="contacts.png" TargetType="{x:Type local:Page1}" />
+                    <local:MasterPageItem Title="TodoList" IconSource="todo.png" TargetType="{x:Type  local:Page2}" />
+                    <local:MasterPageItem Title="Reminders" IconSource="reminders.png" TargetType="{x:Type  local:Page3}" />
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding IconSource}" />
+                                <Label Grid.Column="1" Text="{Binding Title}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
-    </ContentPage>
-    <ContentPage>
-        <ContentPage.Padding>
-            <OnPlatform x:TypeArguments="Thickness">
-                <On Platform="iOS, Android" Value="0,40,0,0" />
-            </OnPlatform>
-        </ContentPage.Padding>
-        <StackLayout>
-            <Label Text="Green" FontSize="Medium" HorizontalOptions="Center" />
-            <BoxView Color="Green" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage>
-    <ContentPage>
-        <ContentPage.Padding>
-            <OnPlatform x:TypeArguments="Thickness">
-                <On Platform="iOS, Android" Value="0,40,0,0" />
-            </OnPlatform>
-        </ContentPage.Padding>
-        <StackLayout>
-            <Label Text="Blue" FontSize="Medium" HorizontalOptions="Center" />
-            <BoxView Color="Blue" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage>
-</CarouselPage>
+   
+</ContentPage>

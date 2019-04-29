@@ -10,7 +10,7 @@
 
     <NavigationPage Title="MainPage" Icon="schedule.png">
         <x:Arguments>
-            <local:TodayPage />
+            <local:MyMasterDetailPage />
         </x:Arguments>
     </NavigationPage>
 
@@ -20,5 +20,7 @@
 			<local:SchedulePage />
 		</x:Arguments>
 	</NavigationPage>
+    
 	<local:SettingsPage />
+    
 </TabbedPage>
